@@ -289,7 +289,9 @@ project_list{
 .project_description--title,
 .project_discription--sub-title,
 .project_description--para, .project_description--link {
-    text-alin: left;
-    color: #fff;
+    text-align: left;
+    color:#fff;
 
 }
+
+
