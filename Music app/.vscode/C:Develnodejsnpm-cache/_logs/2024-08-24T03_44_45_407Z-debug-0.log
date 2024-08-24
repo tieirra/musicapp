@@ -1,0 +1,436 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.2.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/tieirra/Music app/.vscode/musicapp/.npmrc
+5 silly config load:file:/Users/tieirra/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0
+8 verbose argv "install" "--no-audit" "--save" "@testing-library/jest-dom@^5.14.1" "@testing-library/react@^13.0.0" "@testing-library/user-event@^13.2.1" "web-vitals@^2.1.0"
+9 verbose logfile logs-max:10 dir:/Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_44_45_407Z-
+10 verbose logfile /Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_44_45_407Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @testing-library/jest-dom@^5.14.1
+15 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fjest-dom cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 888ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fjest-dom set size:undefined disposed:false
+18 silly fetch manifest @testing-library/react@^13.0.0
+19 silly packumentCache full:https://registry.npmjs.org/@testing-library%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 119ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@testing-library%2freact set size:undefined disposed:false
+22 silly fetch manifest react@^18.3.1
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 31ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:4879038 disposed:false
+26 silly fetch manifest react-dom@^18.3.1
+27 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/react-dom 77ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/react-dom set size:5841178 disposed:false
+30 silly fetch manifest @testing-library/user-event@^13.2.1
+31 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fuser-event cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 126ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fuser-event set size:undefined disposed:false
+34 silly fetch manifest @testing-library/dom@>=7.21.4
+35 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 111ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom set size:undefined disposed:false
+38 silly fetch manifest web-vitals@^2.1.0
+39 silly packumentCache full:https://registry.npmjs.org/web-vitals cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/web-vitals 98ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/web-vitals set size:undefined disposed:false
+42 silly placeDep ROOT @testing-library/jest-dom@5.17.0 OK for: musicapp@0.1.0 want: ^5.14.1
+43 silly placeDep ROOT @testing-library/react@13.4.0 OK for: musicapp@0.1.0 want: ^13.0.0
+44 silly placeDep ROOT @testing-library/user-event@13.5.0 OK for: musicapp@0.1.0 want: ^13.2.1
+45 silly placeDep ROOT @testing-library/dom@10.4.0 OK for: @testing-library/user-event@13.5.0 want: >=7.21.4
+46 silly placeDep ROOT web-vitals@2.1.4 OK for: musicapp@0.1.0 want: ^2.1.0
+47 silly fetch manifest chalk@^3.0.0
+48 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+49 silly fetch manifest redent@^3.0.0
+50 silly packumentCache full:https://registry.npmjs.org/redent cache-miss
+51 silly fetch manifest css.escape@^1.5.1
+52 silly packumentCache full:https://registry.npmjs.org/css.escape cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/redent 52ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/redent set size:undefined disposed:false
+55 silly fetch manifest @adobe/css-tools@^4.0.1
+56 silly packumentCache full:https://registry.npmjs.org/@adobe%2fcss-tools cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/chalk 69ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/chalk set size:141429 disposed:false
+59 silly fetch manifest dom-accessibility-api@^0.5.6
+60 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@adobe%2fcss-tools 72ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@adobe%2fcss-tools set size:undefined disposed:false
+63 silly fetch manifest @types/testing-library__jest-dom@^5.9.1
+64 silly packumentCache full:https://registry.npmjs.org/@types%2ftesting-library__jest-dom cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/css.escape 151ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/css.escape set size:undefined disposed:false
+67 silly fetch manifest @testing-library/dom@^8.5.0
+68 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 6ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom set size:1092876 disposed:false
+71 silly fetch manifest @types/react-dom@^18.0.0
+72 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@types%2ftesting-library__jest-dom 82ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@types%2ftesting-library__jest-dom set size:undefined disposed:false
+75 silly fetch manifest @types/aria-query@^5.0.1
+76 silly packumentCache full:https://registry.npmjs.org/@types%2faria-query cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 180ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api set size:undefined disposed:false
+79 silly fetch manifest aria-query@5.3.0
+80 silly packumentCache full:https://registry.npmjs.org/aria-query cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/aria-query 10ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/aria-query set size:93063 disposed:false
+83 silly fetch manifest chalk@^4.1.0
+84 silly packumentCache full:https://registry.npmjs.org/chalk cache-hit
+85 silly fetch manifest dom-accessibility-api@^0.5.9
+86 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 104ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+89 silly fetch manifest lz-string@^1.5.0
+90 silly packumentCache full:https://registry.npmjs.org/lz-string cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 12ms (cache hit)
+92 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api set size:171028 disposed:false
+93 http fetch GET 200 https://registry.npmjs.org/@types%2faria-query 62ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/@types%2faria-query set size:undefined disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/lz-string 47ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/lz-string set size:undefined disposed:false
+97 silly placeDep ROOT @types/aria-query@5.0.4 OK for: @testing-library/dom@10.4.0 want: ^5.0.1
+98 silly placeDep node_modules/@testing-library/dom aria-query@5.3.0 OK for: @testing-library/dom@10.4.0 want: 5.3.0
+99 silly placeDep node_modules/@testing-library/dom chalk@4.1.2 OK for: @testing-library/dom@10.4.0 want: ^4.1.0
+100 silly placeDep ROOT dom-accessibility-api@0.5.16 OK for: @testing-library/dom@10.4.0 want: ^0.5.9
+101 silly placeDep ROOT lz-string@1.5.0 OK for: @testing-library/dom@10.4.0 want: ^1.5.0
+102 silly fetch manifest dequal@^2.0.3
+103 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+104 silly fetch manifest ansi-styles@^4.1.0
+105 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+106 silly fetch manifest supports-color@^7.1.0
+107 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/ansi-styles 9ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/supports-color 11ms (cache hit)
+111 silly packumentCache full:https://registry.npmjs.org/supports-color set size:113904 disposed:false
+112 http fetch GET 200 https://registry.npmjs.org/dequal 44ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+114 silly placeDep ROOT @adobe/css-tools@4.4.0 OK for: @testing-library/jest-dom@5.17.0 want: ^4.0.1
+115 silly placeDep ROOT @types/testing-library__jest-dom@5.14.9 OK for: @testing-library/jest-dom@5.17.0 want: ^5.9.1
+116 silly placeDep node_modules/@testing-library/jest-dom chalk@3.0.0 OK for: @testing-library/jest-dom@5.17.0 want: ^3.0.0
+117 silly placeDep ROOT css.escape@1.5.1 OK for: @testing-library/jest-dom@5.17.0 want: ^1.5.1
+118 silly placeDep ROOT redent@3.0.0 OK for: @testing-library/jest-dom@5.17.0 want: ^3.0.0
+119 silly fetch manifest @types/jest@*
+120 silly packumentCache full:https://registry.npmjs.org/@types%2fjest cache-miss
+121 silly fetch manifest indent-string@^4.0.0
+122 silly packumentCache full:https://registry.npmjs.org/indent-string cache-miss
+123 silly fetch manifest strip-indent@^3.0.0
+124 silly packumentCache full:https://registry.npmjs.org/strip-indent cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/indent-string 56ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/indent-string set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/strip-indent 58ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/strip-indent set size:undefined disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/@types%2fjest 76ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@types%2fjest set size:undefined disposed:false
+131 silly placeDep node_modules/@testing-library/react @testing-library/dom@8.20.1 OK for: @testing-library/react@13.4.0 want: ^8.5.0
+132 silly placeDep ROOT @types/react-dom@18.3.0 OK for: @testing-library/react@13.4.0 want: ^18.0.0
+133 silly fetch manifest @types/react@*
+134 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@types%2freact 95ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+137 silly placeDep ROOT @types/react@18.3.4 OK for: @types/react-dom@18.3.0 want: *
+138 silly fetch manifest csstype@^3.0.2
+139 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+140 silly fetch manifest @types/prop-types@*
+141 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 56ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types set size:undefined disposed:false
+144 http fetch GET 200 https://registry.npmjs.org/csstype 63ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+146 silly placeDep ROOT @types/prop-types@15.7.12 OK for: @types/react@18.3.4 want: *
+147 silly placeDep ROOT csstype@3.1.3 OK for: @types/react@18.3.4 want: ^3.0.2
+148 silly placeDep ROOT @types/jest@29.5.12 OK for: @types/testing-library__jest-dom@5.14.9 want: *
+149 silly fetch manifest expect@^29.0.0
+150 silly packumentCache full:https://registry.npmjs.org/expect cache-miss
+151 silly fetch manifest pretty-format@^29.0.0
+152 silly packumentCache full:https://registry.npmjs.org/pretty-format cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/expect 15ms (cache hit)
+154 silly packumentCache full:https://registry.npmjs.org/expect set size:602552 disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/pretty-format 24ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/pretty-format set size:568283 disposed:false
+157 silly placeDep node_modules/@types/jest expect@29.7.0 OK for: @types/jest@29.5.12 want: ^29.0.0
+158 silly placeDep node_modules/@types/jest pretty-format@29.7.0 OK for: @types/jest@29.5.12 want: ^29.0.0
+159 silly fetch manifest jest-util@^29.7.0
+160 silly packumentCache full:https://registry.npmjs.org/jest-util cache-miss
+161 silly fetch manifest jest-get-type@^29.6.3
+162 silly packumentCache full:https://registry.npmjs.org/jest-get-type cache-miss
+163 silly fetch manifest jest-message-util@^29.7.0
+164 silly packumentCache full:https://registry.npmjs.org/jest-message-util cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/jest-message-util 9ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/jest-message-util set size:484970 disposed:false
+167 silly fetch manifest @jest/expect-utils@^29.7.0
+168 silly packumentCache full:https://registry.npmjs.org/@jest%2fexpect-utils cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/jest-util 16ms (cache hit)
+170 silly packumentCache full:https://registry.npmjs.org/jest-util set size:560743 disposed:false
+171 silly fetch manifest jest-matcher-utils@^29.7.0
+172 silly packumentCache full:https://registry.npmjs.org/jest-matcher-utils cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/jest-get-type 21ms (cache hit)
+174 silly packumentCache full:https://registry.npmjs.org/jest-get-type set size:199322 disposed:false
+175 silly fetch manifest react-is@^18.0.0
+176 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils 16ms (cache hit)
+178 silly packumentCache full:https://registry.npmjs.org/jest-matcher-utils set size:536420 disposed:false
+179 silly fetch manifest ansi-styles@^5.0.0
+180 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-hit
+181 silly fetch manifest @jest/schemas@^29.6.3
+182 silly packumentCache full:https://registry.npmjs.org/@jest%2fschemas cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/react-is 25ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/react-is set size:3991776 disposed:false
+185 http fetch GET 200 https://registry.npmjs.org/@jest%2fschemas 36ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/@jest%2fschemas set size:56414 disposed:false
+187 http fetch GET 200 https://registry.npmjs.org/@jest%2fexpect-utils 122ms (cache miss)
+188 silly packumentCache full:https://registry.npmjs.org/@jest%2fexpect-utils set size:undefined disposed:false
+189 silly fetch manifest typescript@^3.2.1 || ^4
+190 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/typescript 53ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/typescript set size:13145534 disposed:false
+193 silly placeDep ROOT typescript@4.9.5 REPLACE for: react-scripts@5.0.1 want: ^3.2.1 || ^4
+194 silly placeDep ROOT indent-string@4.0.0 OK for: redent@3.0.0 want: ^4.0.0
+195 silly placeDep ROOT strip-indent@3.0.0 OK for: redent@3.0.0 want: ^3.0.0
+196 silly fetch manifest min-indent@^1.0.0
+197 silly packumentCache full:https://registry.npmjs.org/min-indent cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/min-indent 44ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/min-indent set size:undefined disposed:false
+200 silly placeDep ROOT min-indent@1.0.1 OK for: strip-indent@3.0.0 want: ^1.0.0
+201 silly placeDep ROOT dequal@2.0.3 OK for: aria-query@5.3.0 want: ^2.0.3
+202 silly placeDep node_modules/@testing-library/dom ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+203 silly placeDep node_modules/@testing-library/dom supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+204 silly fetch manifest color-convert@^2.0.1
+205 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+206 silly fetch manifest has-flag@^4.0.0
+207 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/has-flag 12ms (cache hit)
+209 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/color-convert 14ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+212 silly placeDep node_modules/@testing-library/dom color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+213 silly fetch manifest color-name@~1.1.4
+214 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/color-name 6ms (cache hit)
+216 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+217 silly placeDep node_modules/@testing-library/dom color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+218 silly placeDep node_modules/@testing-library/dom has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+219 silly placeDep node_modules/@testing-library/jest-dom ansi-styles@4.3.0 OK for: chalk@3.0.0 want: ^4.1.0
+220 silly placeDep node_modules/@testing-library/jest-dom supports-color@7.2.0 OK for: chalk@3.0.0 want: ^7.1.0
+221 silly placeDep node_modules/@testing-library/jest-dom color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+222 silly placeDep node_modules/@testing-library/jest-dom color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+223 silly placeDep node_modules/@testing-library/jest-dom has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+224 silly placeDep node_modules/@testing-library/react chalk@4.1.2 OK for: @testing-library/dom@8.20.1 want: ^4.1.0
+225 silly placeDep node_modules/@testing-library/react ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+226 silly placeDep node_modules/@testing-library/react supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+227 silly placeDep node_modules/@testing-library/react color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+228 silly placeDep node_modules/@testing-library/react color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+229 silly placeDep node_modules/@testing-library/react has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+230 silly placeDep ROOT @jest/expect-utils@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+231 silly placeDep node_modules/@types/jest jest-get-type@29.6.3 OK for: expect@29.7.0 want: ^29.6.3
+232 silly placeDep node_modules/@types/jest jest-matcher-utils@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+233 silly placeDep node_modules/@types/jest jest-message-util@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+234 silly placeDep node_modules/@types/jest jest-util@29.7.0 OK for: expect@29.7.0 want: ^29.7.0
+235 silly fetch manifest chalk@^4.0.0
+236 silly packumentCache full:https://registry.npmjs.org/chalk cache-hit
+237 silly fetch manifest jest-diff@^29.7.0
+238 silly packumentCache full:https://registry.npmjs.org/jest-diff cache-miss
+239 silly fetch manifest chalk@^4.0.0
+240 silly packumentCache full:https://registry.npmjs.org/chalk cache-hit
+241 silly fetch manifest @jest/types@^29.6.3
+242 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes cache-miss
+243 silly fetch manifest @jest/types@^29.6.3
+244 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes cache-miss
+245 http fetch GET 200 https://registry.npmjs.org/jest-diff 12ms (cache hit)
+246 silly packumentCache full:https://registry.npmjs.org/jest-diff set size:515410 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 27ms (cache hit)
+248 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes set size:270301 disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 33ms (cache hit)
+250 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes set size:270301 disposed:false
+251 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes dispose
+252 silly placeDep node_modules/@jest/expect-utils jest-get-type@29.6.3 OK for: @jest/expect-utils@29.7.0 want: ^29.6.3
+253 silly placeDep node_modules/@types/jest chalk@4.1.2 OK for: jest-matcher-utils@29.7.0 want: ^4.0.0
+254 silly placeDep node_modules/@types/jest jest-diff@29.7.0 OK for: jest-matcher-utils@29.7.0 want: ^29.7.0
+255 silly fetch manifest diff-sequences@^29.6.3
+256 silly packumentCache full:https://registry.npmjs.org/diff-sequences cache-miss
+257 http fetch GET 200 https://registry.npmjs.org/diff-sequences 7ms (cache hit)
+258 silly packumentCache full:https://registry.npmjs.org/diff-sequences set size:178619 disposed:false
+259 silly placeDep node_modules/@types/jest ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+260 silly placeDep node_modules/@types/jest supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+261 silly placeDep node_modules/@types/jest color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+262 silly placeDep node_modules/@types/jest color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+263 silly placeDep node_modules/@types/jest diff-sequences@29.6.3 OK for: jest-diff@29.7.0 want: ^29.6.3
+264 silly placeDep node_modules/@types/jest @jest/types@29.6.3 OK for: jest-message-util@29.7.0 want: ^29.6.3
+265 silly fetch manifest @types/yargs@^17.0.8
+266 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs cache-miss
+267 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs 8ms (cache hit)
+268 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs set size:379122 disposed:false
+269 silly placeDep node_modules/@types/jest @jest/schemas@29.6.3 OK for: @jest/types@29.6.3 want: ^29.6.3
+270 silly placeDep node_modules/@types/jest @types/yargs@17.0.33 OK for: @jest/types@29.6.3 want: ^17.0.8
+271 silly fetch manifest @sinclair/typebox@^0.27.8
+272 silly packumentCache full:https://registry.npmjs.org/@sinclair%2ftypebox cache-miss
+273 http fetch GET 200 https://registry.npmjs.org/@sinclair%2ftypebox 10ms (cache hit)
+274 silly packumentCache full:https://registry.npmjs.org/@sinclair%2ftypebox set size:1000437 disposed:false
+275 silly placeDep node_modules/@types/jest @sinclair/typebox@0.27.8 OK for: @jest/schemas@29.6.3 want: ^0.27.8
+276 silly placeDep node_modules/@types/jest/node_modules/pretty-format ansi-styles@5.2.0 OK for: pretty-format@29.7.0 want: ^5.0.0
+277 silly placeDep node_modules/@types/jest react-is@18.3.1 OK for: pretty-format@29.7.0 want: ^18.0.0
+278 silly placeDep node_modules/@types/jest has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+279 silly reify mark retired [
+279 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/typescript',
+279 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/tsc',
+279 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/tsserver'
+279 silly reify ]
+280 silly reify moves {
+280 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/typescript': '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.typescript-kdGXiqZV',
+280 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/tsc': '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/.tsc-Ny0ETbe4',
+280 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/tsserver': '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.bin/.tsserver-KUZwoSBq'
+280 silly reify }
+281 silly tarball no local data for dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz. Extracting by manifest.
+282 silly tarball no local data for min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz. Extracting by manifest.
+283 silly tarball no local data for @jest/expect-utils@https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.7.0.tgz. Extracting by manifest.
+284 silly tarball no local data for strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz. Extracting by manifest.
+285 silly tarball no local data for indent-string@https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz. Extracting by manifest.
+286 silly tarball no local data for @types/jest@https://registry.npmjs.org/@types/jest/-/jest-29.5.12.tgz. Extracting by manifest.
+287 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+288 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.12.tgz. Extracting by manifest.
+289 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.3.4.tgz. Extracting by manifest.
+290 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.0.tgz. Extracting by manifest.
+291 silly tarball no local data for redent@https://registry.npmjs.org/redent/-/redent-3.0.0.tgz. Extracting by manifest.
+292 silly tarball no local data for css.escape@https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz. Extracting by manifest.
+293 silly tarball no local data for @types/testing-library__jest-dom@https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.9.tgz. Extracting by manifest.
+294 silly tarball no local data for @adobe/css-tools@https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.0.tgz. Extracting by manifest.
+295 silly tarball no local data for lz-string@https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz. Extracting by manifest.
+296 silly tarball no local data for dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz. Extracting by manifest.
+297 silly tarball no local data for web-vitals@https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz. Extracting by manifest.
+298 silly tarball no local data for @types/aria-query@https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.4.tgz. Extracting by manifest.
+299 silly tarball no local data for @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-10.4.0.tgz. Extracting by manifest.
+300 silly tarball no local data for @testing-library/user-event@https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz. Extracting by manifest.
+301 silly tarball no local data for @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz. Extracting by manifest.
+302 silly tarball no local data for @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.17.0.tgz. Extracting by manifest.
+303 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+304 silly tarball no local data for jest-get-type@https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz. Extracting by manifest.
+305 silly tarball no local data for @sinclair/typebox@https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz. Extracting by manifest.
+306 silly tarball no local data for @jest/types@https://registry.npmjs.org/@jest/types/-/types-29.6.3.tgz. Extracting by manifest.
+307 silly tarball no local data for @jest/schemas@https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz. Extracting by manifest.
+308 silly tarball no local data for diff-sequences@https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.6.3.tgz. Extracting by manifest.
+309 silly tarball no local data for jest-diff@https://registry.npmjs.org/jest-diff/-/jest-diff-29.7.0.tgz. Extracting by manifest.
+310 silly tarball no local data for jest-util@https://registry.npmjs.org/jest-util/-/jest-util-29.7.0.tgz. Extracting by manifest.
+311 silly tarball no local data for jest-matcher-utils@https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.7.0.tgz. Extracting by manifest.
+312 silly tarball no local data for jest-message-util@https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.7.0.tgz. Extracting by manifest.
+313 silly tarball no local data for jest-get-type@https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz. Extracting by manifest.
+314 silly tarball no local data for pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz. Extracting by manifest.
+315 silly tarball no local data for expect@https://registry.npmjs.org/expect/-/expect-29.7.0.tgz. Extracting by manifest.
+316 silly tarball no local data for aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.0.tgz. Extracting by manifest.
+317 silly tarball no local data for @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.1.tgz. Extracting by manifest.
+318 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz. Extracting by manifest.
+319 http fetch GET 200 https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 479ms (cache miss)
+320 http fetch GET 200 https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 482ms (cache miss)
+321 http fetch GET 200 https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.7.0.tgz 548ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.4.tgz 628ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 717ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 723ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.12.tgz 762ms (cache miss)
+326 http fetch GET 200 https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz 769ms (cache miss)
+327 http fetch GET 200 https://registry.npmjs.org/@jest/types/-/types-29.6.3.tgz 796ms (cache miss)
+328 http fetch GET 200 https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.6.3.tgz 796ms (cache miss)
+329 http fetch GET 200 https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz 808ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz 842ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz 882ms (cache miss)
+332 http fetch GET 200 https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz 923ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.9.tgz 958ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.7.0.tgz 988ms (cache miss)
+335 http fetch GET 200 https://registry.npmjs.org/@types/jest/-/jest-29.5.12.tgz 1024ms (cache miss)
+336 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.0.tgz 1024ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.7.0.tgz 1012ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz 1048ms (cache miss)
+339 http fetch GET 200 https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz 1075ms (cache miss)
+340 http fetch GET 200 https://registry.npmjs.org/jest-diff/-/jest-diff-29.7.0.tgz 1137ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/expect/-/expect-29.7.0.tgz 1148ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.0.tgz 1167ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/jest-util/-/jest-util-29.7.0.tgz 1161ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz 1222ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.17.0.tgz 1253ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.3.4.tgz 1270ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz 1266ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz 1294ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz 1306ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 1371ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz 1434ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/aria-query/-/aria-query-5.3.0.tgz 1504ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-10.4.0.tgz 1527ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.1.tgz 1544ms (cache miss)
+355 http fetch GET 200 https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz 1573ms (cache miss)
+356 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 2712ms (cache miss)
+357 silly ADD node_modules/@jest/expect-utils
+358 silly ADD node_modules/@jest/expect-utils/node_modules/jest-get-type
+359 silly ADD node_modules/dequal
+360 silly ADD node_modules/min-indent
+361 silly ADD node_modules/strip-indent
+362 silly ADD node_modules/indent-string
+363 silly ADD node_modules/@types/jest
+364 silly ADD node_modules/@types/jest/node_modules/has-flag
+365 silly ADD node_modules/@types/jest/node_modules/react-is
+366 silly ADD node_modules/@types/jest/node_modules/@sinclair/typebox
+367 silly ADD node_modules/@types/jest/node_modules/@types/yargs
+368 silly ADD node_modules/@types/jest/node_modules/@jest/schemas
+369 silly ADD node_modules/@types/jest/node_modules/@jest/types
+370 silly ADD node_modules/@types/jest/node_modules/diff-sequences
+371 silly ADD node_modules/@types/jest/node_modules/color-name
+372 silly ADD node_modules/@types/jest/node_modules/color-convert
+373 silly ADD node_modules/@types/jest/node_modules/supports-color
+374 silly ADD node_modules/@types/jest/node_modules/ansi-styles
+375 silly ADD node_modules/@types/jest/node_modules/jest-diff
+376 silly ADD node_modules/@types/jest/node_modules/chalk
+377 silly ADD node_modules/@types/jest/node_modules/jest-util
+378 silly ADD node_modules/@types/jest/node_modules/jest-message-util
+379 silly ADD node_modules/@types/jest/node_modules/jest-matcher-utils
+380 silly ADD node_modules/@types/jest/node_modules/jest-get-type
+381 silly ADD node_modules/@types/jest/node_modules/pretty-format
+382 silly ADD node_modules/@types/jest/node_modules/pretty-format/node_modules/ansi-styles
+383 silly ADD node_modules/@types/jest/node_modules/expect
+384 silly ADD node_modules/csstype
+385 silly ADD node_modules/@types/prop-types
+386 silly ADD node_modules/@types/react
+387 silly ADD node_modules/@types/react-dom
+388 silly ADD node_modules/redent
+389 silly ADD node_modules/css.escape
+390 silly ADD node_modules/@types/testing-library__jest-dom
+391 silly ADD node_modules/@adobe/css-tools
+392 silly ADD node_modules/lz-string
+393 silly ADD node_modules/dom-accessibility-api
+394 silly ADD node_modules/@types/aria-query
+395 silly ADD node_modules/web-vitals
+396 silly ADD node_modules/@testing-library/dom
+397 silly ADD node_modules/@testing-library/dom/node_modules/has-flag
+398 silly ADD node_modules/@testing-library/dom/node_modules/color-name
+399 silly ADD node_modules/@testing-library/dom/node_modules/color-convert
+400 silly ADD node_modules/@testing-library/dom/node_modules/supports-color
+401 silly ADD node_modules/@testing-library/dom/node_modules/ansi-styles
+402 silly ADD node_modules/@testing-library/dom/node_modules/chalk
+403 silly ADD node_modules/@testing-library/dom/node_modules/aria-query
+404 silly ADD node_modules/@testing-library/user-event
+405 silly ADD node_modules/@testing-library/react
+406 silly ADD node_modules/@testing-library/react/node_modules/has-flag
+407 silly ADD node_modules/@testing-library/react/node_modules/color-name
+408 silly ADD node_modules/@testing-library/react/node_modules/color-convert
+409 silly ADD node_modules/@testing-library/react/node_modules/supports-color
+410 silly ADD node_modules/@testing-library/react/node_modules/ansi-styles
+411 silly ADD node_modules/@testing-library/react/node_modules/chalk
+412 silly ADD node_modules/@testing-library/react/node_modules/@testing-library/dom
+413 silly ADD node_modules/@testing-library/jest-dom
+414 silly ADD node_modules/@testing-library/jest-dom/node_modules/has-flag
+415 silly ADD node_modules/@testing-library/jest-dom/node_modules/color-name
+416 silly ADD node_modules/@testing-library/jest-dom/node_modules/color-convert
+417 silly ADD node_modules/@testing-library/jest-dom/node_modules/supports-color
+418 silly ADD node_modules/@testing-library/jest-dom/node_modules/ansi-styles
+419 silly ADD node_modules/@testing-library/jest-dom/node_modules/chalk
+420 silly ADD node_modules/fsevents
+421 silly CHANGE node_modules/typescript
+422 verbose cwd /Users/tieirra/Music app/.vscode/musicapp
+423 verbose os Darwin 21.2.0
+424 verbose node v22.2.0
+425 verbose npm  v10.8.2
+426 verbose exit 0
+427 info ok

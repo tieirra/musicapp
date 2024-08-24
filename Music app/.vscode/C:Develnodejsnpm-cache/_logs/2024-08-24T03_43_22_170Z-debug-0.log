@@ -1,0 +1,18 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v22.2.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/tieirra/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec create-react-app musicapp
+7 verbose argv "exec" "--" "create-react-app" "musicapp"
+8 verbose logfile logs-max:10 dir:/Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_43_22_170Z-
+9 verbose logfile /Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_43_22_170Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 335ms
+12 verbose cwd /Users/tieirra/Music app/.vscode
+13 verbose os Darwin 21.2.0
+14 verbose node v22.2.0
+15 verbose npm  v10.8.2
+16 verbose exit 0
+17 info ok

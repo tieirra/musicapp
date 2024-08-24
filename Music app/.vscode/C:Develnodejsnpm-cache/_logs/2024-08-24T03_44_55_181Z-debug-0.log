@@ -1,0 +1,27 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.2.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/tieirra/Music app/.vscode/musicapp/.npmrc
+5 silly config load:file:/Users/tieirra/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm uninstall cra-template
+8 verbose argv "uninstall" "cra-template"
+9 verbose logfile logs-max:10 dir:/Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_44_55_181Z-
+10 verbose logfile /Users/tieirra/Music app/.vscode/C:Develnodejsnpm-cache/_logs/2024-08-24T03_44_55_181Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/cra-template'
+14 silly reify ]
+15 silly reify moves {
+15 silly reify   '/Users/tieirra/Music app/.vscode/musicapp/node_modules/cra-template': '/Users/tieirra/Music app/.vscode/musicapp/node_modules/.cra-template-b44yiiPd'
+15 silly reify }
+16 silly REMOVE node_modules/cra-template
+17 verbose cwd /Users/tieirra/Music app/.vscode/musicapp
+18 verbose os Darwin 21.2.0
+19 verbose node v22.2.0
+20 verbose npm  v10.8.2
+21 verbose exit 0
+22 info ok
