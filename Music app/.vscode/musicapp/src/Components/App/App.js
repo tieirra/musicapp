@@ -1,5 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import Playlist from "../Playlist/Playlist";
+import SearchBar from ".//SearchBar/SearchBar";
+import SearchResults from "../SearchResults/SearchResults";
+import Spotify "../uitl/Spotify";
+
+
+class App extends React.Component{
+  constructor(props){
+    super(props);
+
+this.state={
+  SearchResults: [],
+PlaylistName: "NewPlaylist",
+PlaylistTracks: []
+}
+
+this.search=this.seacrch.bind(this);
+this.addTrack=this.addTrack.bind(this);
+this.removeTrack=this.removeTrack.bind(this);
+this.updatePlaylistName=this.updatePlaylistName.bind(this)
+this.savePlaylist=this.savePlaylist.bind(this)
+this.removeTrackSearch=this.removeTrackSearch.bind(this)
+this.doThese=this.doThese.bind(this);
+};
+
+
+
+}
+
+
+
+
+
 
 function App() {
   return (
